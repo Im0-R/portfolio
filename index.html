@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang= "en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Mes Projets</title>
+    <title>Léo-Paul VRAY's Portfolio</title>
     <style>
+        a:link {
+            color: rgb(196, 191, 191);
+        }
+
+        a:hover {
+            color: rgb(165, 159, 159);
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color: #1f1e1e41;
         }
+
         header {
             background: #333;
             color: white;
             padding: 1rem;
+            margin: 0;
         }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
-            background: white;
+            background: rgb(17, 17, 17);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         .project {
             margin: 20px 0;
             padding: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #1b1616;
             border-radius: 5px;
-            background: #fff;
+            background: #cc9704c7;
         }
+
         footer {
             margin-top: 20px;
             padding: 10px;
@@ -40,15 +54,21 @@
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Mon Portfolio</h1>
+        <h1>Léo-Paul VRAY</h1>
     </header>
+    <div class="container">
+        <h2> About me</h2>
+
+    </div>
     <div class="container">
         <h2>Mes Projets</h2>
         <div class="project">
-            <h3>Nom du Projet</h3>
-            <p>Description du projet ici.</p>
+            <h3>Creallies</h3>
+            <p>Creallies is a "Pokemon GO Like" that is in the universe of my school Creajeux , that is my first mobile
+                game from Unity with C# language so it has a special place in my heart.</p>
             <a href="#">Lien vers le projet</a>
         </div>
         <div class="project">
@@ -56,9 +76,16 @@
             <p>I did a Connect 4 using the minimax algorythm and the alpha beta technique</p>
             <a href="#">Lien vers le projet</a>
         </div>
+        <div class="project">
+            <h3> TimeCapsule</h3>
+            <p> I'm currently doing a puzzle game called TimeCapsule based on Temporality and going back and forth from
+                the present to the past to resolve puzzles!</p>
+        </div>
     </div>
     <footer>
-        <p>&copy; 2025 - Mon Portfolio</p>
+        </div>
+        <p>&copy; 2025 - Portfolio</p>
     </footer>
 </body>
+
 </html>
